@@ -1,15 +1,53 @@
 
+body {
+    text-align:center;
+    color: rgb(210, 186, 233);
+    background-color: rgb(7, 66, 114);
+    font-family: sans-serif;
+    width:90%;
+    
+}
 h1 {
-    color: rgb(14, 80, 124);
+    color: rgb(101, 147, 165);
     text-align: center;
 }
-
-button { background-color: rgb(50, 149, 206)
-
+input{
+    width:30%;
+    height: 50px;
+    border: 3px ridge rgb(76, 76, 121);
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+}
+button { 
+    background-color: rgb(10, 93, 161);
+    height:50px;
+    color: rgb(101, 147, 165);
+   font-weight: bold;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 4px;
 }
 
 div {
     text-align: center;
+}
+table{
+    display:flex;
+    width: 95%;
+}
+
+td { 
+    float: left;
+    line-height: 1.2em;
+    padding: 30px 5px;
 
 
 }
+img , .imgcon { 
+    width: 300px;
+    height:300px;
+    border-radius: 3%;
+
+}
+
