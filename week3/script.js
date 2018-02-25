@@ -64,21 +64,14 @@
 
         onButtonClick(value) {
             this.listContainer.innerHTML = "";
-            // fetchJSON("https://api.github.com/repos/HackYourFuture/" + input.value).then(data => {
             fetchJSON(url + value).then(data => {
-                // if (error) {
-                //     console.log('ERROR!');
-                // } else {
-                this.renderRepos(data);
-                // }
+                 this.renderRepos(data);
+              
             });
 
-            confetchJSON(url + value + contributors).then(data => {
-                // if (error) {
-                //     console.log('ERROR!');
-                // } else {
+            confetchJSON(url + value + contributors).then(data => {         
                 this.renderContributors(data);
-                // }
+              
             });
         }
     }
